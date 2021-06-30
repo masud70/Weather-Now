@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Weather Now",
+    "slug": "weather-now",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.judgemine.weathernow",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.judgemine.weathernow",
+      "versionCode": 1
+    }
+
+  }
+}
